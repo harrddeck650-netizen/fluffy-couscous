@@ -1,6 +1,12 @@
-node_modules/
-dist/
-.env
-.env.local
-.DS_Store
-*.log
+{
+  "name": "grudge-holder-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
